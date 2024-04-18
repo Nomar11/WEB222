@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"
+content="IE=edge" />
+<meta name="viewpoint"
+content="width-device-width,
+initial-scale=1.0" />
+<title>Najib's Webpage</title>
+<link rel="stylesheet" href="./style.css" />
+<script src="./script.js"></script>
+<link 
+  rel="stylesheet"
+  href=""
+  />
+</head>
+<body>
+  <header id="TopSection">
+    <figure>
+      <img src="https://cdn.discordapp.com/attachments/1040153720723357789/1230342456441176205/IMG-20240417-WA0005.jpg?ex=6632f8b4&is=662083b4&hm=549fad77a9728c2dd57a8438aaa79d357a029ebf6a77197d23efccf484581781&"
+      alt="My Image" width="300"
+      height="330" />
+    </figure>
+
+<p id="name">Najib Omar</p>
+<p id="position">Web Developer</p>
+
+<div classs="buttons">
+  <button class="buttom resume">
+    <i class="fa-solid
+    fa-file-arrow-down"></i>
+    <a href="https://drive.google.com/uc?export=download&id=1wt-_vekLJBHFe_ciy8rxPO3atalA8N75"
+    download="Najib's Resume">Resume</a>
+  </button>
+  <button class="button contactMe">
+    <a href="#contactMeContainer">Contact</a>
+    download="Najib's Resume">Resume</a>
+  </button>
+</div>
+</header>
+
+<main id="info">
+  <div class="section">
+    <div class="split eft">
+      <h1>About Me and Academic Honesty</h1>
+      <p>
+        Hello. My name is Najib Omar. 
+        I'm currently in my 3rd semester
+        of the Computer Programming and Analysis
+        program at Seneca Polytechnic as I pursue
+        a career path in IT. My aim is to have a fluent
+        ability to code using C, C++, Javascript,
+        <abbr title="Hypertext Markup Language">Html
+        </abbr>,
+        <abbr title="Cascading Style Sheets">CSS</abbr>,
+        <abbr title="Structured Query Language">SQL</abbr>
+        programming languages.
+      </p>
+    </div>
+
+    <div class="split Right">
+      <h1>Basic Information</h1>
+      <table
+      class="Information-Table">
+      <tr>
+        Name:</strong></td>
+        <td> Najib Omar</td>
+      </tr>
+      <tr>
+        <td><strong>Email:
+        </strong></td>
+        <td>nomar11@myseneca.ca</td>
+      </tr>
+      <td><strong>Language:
+      </strong></td>
+      <td>English, French</td>
+    </tr>
+      
+    <tr>
+      <td><strong>Course:
+      </strong></td>
+      <td>WEB222</td>
+      </tr>
+
+      <tr>
+        <td><strong>Section:
+        </strong></td>
+        <td>NEE</td>
+      </tr>
+
+      <tr>
+        <td><strong>Student ID:
+        </strong></td>
+        <td>119070233</td>
+      </tr>
+
+      <tr>
+        <td><strong>Instructor:
+        </strong></td>
+        <td>Mark Merritt</td>
+      </tr>
+    </table>
+    </div>
+    </div>
+  </main>
+  
+  <div id="honesty">
+    <h1>Honesty Statement</h1>
+    <p>
+      I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+      No part of this assessment has been copied manually or electronically from any other source
+      (including web sites) except for the information supplied by the WEB222 instructors and / or
+      made available in this assessment for my use. I also declare that no part of this assignment has
+      been distributed to other students.
+      <br/><br/>
+      <strong>Date:</strong> 04/08/2024
+    </p>
+  </div>
+
+  <div class="Education">
+    <h1>Education</h1>
+    <div class="education">
+      <div class="Education leftside">
+        2023 - 2025 (Goal) <br/>
+        Advanced Diploma       
+      </div>
+      <div class="Education rightSide">
+        Computer Programming & Analysis <br />
+        Seneca Polytechnic - Newnham Campus, North York, ON
+      </div>
+    </div>
+    </div>
+
+    <foster id="contactMeContainer" >
+      <h1>Contact Me</h1>
+      <form action="https://httpbin.org/post"
+      method="POST" >
+      <label for="Name">Name</label>
+      <input
+        type="text"
+        id="Name"
+        name="Name"
+        placeholder="Enter name here...."
+        autocomplete="on"
+        required
+        />
+
+        <label for="email">E-mail
+        </label>
+        <input 
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Enter email address here...."
+        autocomplete="on"
+        required
+        />
+
+        <label for="phone">Phone Number</label>
+        <input 
+        type="text"
+        id="phone"
+        name="phone"
+        placeholder="Enter phone number here...."
+        autocomplete="on"
+        required
+        />
+
+        <label for="common-cities">City</label>
+        <input 
+        type="text"
+        list="common-cities-name"
+        id="common-cities"
+        name="common-cities"
+        placeholder="Enter your city here...."
+        required
+        />
+        <datalist 
+        id="common-cities-name">
+        <option value="Toronto">
+        </option>
+        <option value="Scarborough">
+        </option>
+        <option value="Newmarket">
+        </option>
+        <option value="Barrie">
+        </option>
+        <option value="Hamilton">
+        </option>
+      </datalist>
+
+      <label for="postalCode">Postal Code
+      </label>
+      <input 
+      type="text"
+      id="postalCode"
+      name="postalCode"
+      placeholder="Enter your Postal Code here...."
+      autocomplete="on"
+      required
+      pattern="^[A-Za-z]\d[A-Za-z] ? 
+      \d[A-Za-z]\d$"
+      />
+
+      <label for="subject">Subject:
+      </label> <br/>
+      <input 
+      type="radio"
+      id="Question"
+      name="Selection"
+      onclick="onChangeRadio
+      ('Question')"
+      value="Question"
+      required
+      />
+
+      <label for="Question">Question
+      </label>
+      <input 
+      type="radio"
+      id="Comment"
+      name="Selection"
+      onclick="onChangeRadio
+      ('Comment')"
+      value="Comment"
+      required
+      />
+
+      <label for="Comment">Comment:
+      </label> <br/>
+      <input 
+      type="radio"
+      id="Hiring"
+      name="Selection"
+      onclick="onChangeRadio
+      ('Hiring')"
+      value="Hiring"
+      required
+      />
+
+      <label for="Hiring">Hiring:
+      </label>
+      <textarea 
+      id="subject"
+      name="subject"
+      placeholder="Text.."
+      style="height: 180px"
+      required
+      ></textarea>
+
+      <div id="hourlyRate"></div>
+
+      <input type="submit"/>
+    </form>
+  </footer>
+</body>
+</html>
