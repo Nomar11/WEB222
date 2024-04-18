@@ -1,0 +1,214 @@
+body {
+  max-width: 1024px;
+  width: 90vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+  header img {
+    width: 250px;
+    height: 260px;
+  }
+
+  header .buttons {
+    column-gap: 200px;
+    width: 300px;
+    height: 30px;
+  }
+
+  #info .section {
+    display: block;
+    background-color: whitesmoke;
+  }
+
+  body #info {
+    padding: 0x;
+    margin: 0x;
+  }
+
+  .section .right {
+    margin: 0x;
+    background-color: lightgoldenrodyellow;
+    padding: 12px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#name {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  margin-bottom: 1px;
+}
+
+#position {
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  margin-bottom: 35px;
+}
+
+.buttons {
+  display: grid;
+  margin: auto;
+  column-gap: 50px;
+  width: 390px;
+  height: 35px;
+  padding-bottom: 50px;
+}
+
+.resume {
+  background-color: rgb(115, 110, 125);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-column: 2/3;
+  border-radius: 8%;
+}
+
+.contactMe {
+  background-color: rgb(115, 110, 125);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-column: 2/3;
+  border-radius: 8%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.resume a:hover,
+.contactMe a:hover {
+  text-decoration: underline;
+  color: rgb(240, 243, 187);
+}
+
+#TopSection {
+  background-color: antiquewhite;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.section {
+  display: flex;
+}
+
+.left {
+  margin-right: 10px;
+  margin-left: 100px;
+  flex: 1;
+}
+
+.left p {
+  line-height: 24px;
+}
+
+.right {
+  flex: 1;
+  margin-right: 100px;
+  margin-left: 130px;
+}
+
+.information-table tr,
+.information-table td {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#info {
+  background-color: whitesmoke;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#honesty {
+  background-color: turquoise;
+  padding: 12px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#honesty p {
+  margin: 0px;
+}
+
+#honesty h1 {
+  text-align: center;
+}
+
+.Education {
+  text-align: center;
+  display: grid;
+  background-color: rgb(145, 180, 210);
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.education {
+  display: flex;
+}
+
+.leftSide {
+  flex: 1;
+  background-color: rgb(115, 110, 125);
+  padding: 10px 20px;
+}
+
+.rightSide {
+  flex: 4;
+  background-color: #ccc;
+  padding: 10 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100px;
+  border: 2px solid rgb(190, 198, 196);
+  resize: vertical;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: rgb(65, 160, 70);
+  padding: 11px 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: rgb(50, 189, 35);
+}
+
+#contactMeContainer {
+  background-color: rgb(246, 243, 243);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
